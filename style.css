@@ -60,15 +60,22 @@ ul li {
 
 }
 
-.tabela {
-    width: 350px;
+table {
+    border-collapse: collapse;
+    width: 300px;
     border: 2px solid black;
     padding: 5px;
-    border-radius: 5px;
     margin: auto;
     background-image: url(imagem/mapamundi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+td {
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 a {
